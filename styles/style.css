@@ -135,6 +135,18 @@ main > section{
     margin-bottom: 20px ;
     border-radius: 8px ;
 }
+#badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+    
+}
+#year{
+    font-size: 4rem;
+    font-weight: 700;
+}
 
 
 
@@ -185,8 +197,11 @@ main > section{
 
 /* responsive media quary */
 @media screen and (max-width: 576px) {
-    .navbar, .nav-links, .teams{
+    .navbar, .nav-links, .teams, .features{
         flex-direction: column;
+    }
+    .features img{
+        width: 400px;
     }
     .team-image, .fact-container, .sopnsor-compannies{
         grid-template-columns: repeat(1, 1fr);
@@ -208,9 +223,13 @@ main > section{
 /* mediam drivice responsive */
 
 @media screen and (min-width: 576px) and (max-width: 992px){
-    .teams{
+    .teams, .features{
         flex-direction: column;
     }
+    .features{
+        width: 800px;
+    }
+   
     .team-features{
         margin-left: 50px auto;
     }
