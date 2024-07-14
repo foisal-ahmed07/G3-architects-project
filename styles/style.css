@@ -12,6 +12,13 @@ body{
     display: flex;
     gap: 30px;
 }
+
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-bottom: 25px;    
+
+}
 .primary-btn{
     background-color: #FF900E;
     color: white;
@@ -95,12 +102,7 @@ main{
     max-width: 530px;
     
 }
-.feature-title{
-    font-size: 2.8rem;
-    font-weight: 500;
-    margin-bottom: 25px;    
 
-}
 .feature-description{
     color:#727272;
     font-size: 1rem;
